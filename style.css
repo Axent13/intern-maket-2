@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.layout-positioner {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header-green-line {
+    min-height: 22px;
+    background-color: #04e4a2;
+}
+.logo-and-contactus {
+    min-height: 78px;
+    background-color: #e94643;
+}
+.logo {
+    float: left;
+    width: 600px;
+}
+.contact-us {
+    margin-left: 600px;
+    text-align: right;
+}
+.content-and-phone-container {
+    min-height: 583px;
+    background-color: #ef5350;
+}
+.phone-container {
+    float: left;
+    width: 600px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear:both;
+}
+.content-container {
+    margin-left: 600px;
+}
+.lets-talk-form {
+    float: right;
+    width: 600px;
+}
+.copyright {
+    float: left;
+    width: 600px;
+}
+.email {
+    margin-left: 600px;
+}
