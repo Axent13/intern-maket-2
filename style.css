@@ -28,24 +28,34 @@ body {
     text-transform: uppercase;
 }
 .contact-us a:link{
+    display: block;
+    height: 21px;
     color: white;
     text-decoration: none;
-    border-bottom: 2px solid #fdd835;
+    border-bottom: 3px solid #fdd835;
 }
 .contact-us a:visited{
+    display: block;
+    height: 21px;
     color: white;
     text-decoration: none;
-    border-bottom: 2px solid #fdd835;
+    border-bottom: 3px solid #fdd835;
 }
 .contact-us a:hover{
-    color: white;
+    display: block;
+    height: 21px;
+    font-weight: bold;
+    color: #fdd835;
     text-decoration: none;
-    border-bottom: none;
+    border-bottom: 3px solid #fdd835;
 }
 .contact-us a:active{
-    color: white;
+    display: block;
+    height: 21px;
+    font-weight: bold;
+    color: #fdd835;
     text-decoration: none;
-    border-bottom: none;
+    border-bottom: 3px solid #fdd835;
 }
 .content-and-phone-container {
     min-height: 583px;
