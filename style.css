@@ -63,7 +63,8 @@ body {
 }
 .phone-container {
     float: left;
-    width: 600px;
+    width: 502px;
+    height: 583px;
 }
 .clearfix::after {
     content: "";
@@ -74,7 +75,7 @@ body {
     margin-left: 600px;
     padding-top: 182px;
 }
-.lets-talk-form {
+.lets-talk-container {
     float: right;
     width: 600px;
 }
@@ -171,4 +172,87 @@ body {
 }
 .button-knowmore a:active{
 
+}
+.lets-talk-form {
+    padding: 16px 0 0 32px;
+}
+.form-header {
+    font-size: 20px;
+    color: #ff8a80;
+    padding: 28px 0 0 55px;
+    text-transform: capitalize;
+}
+.input-firstname {
+    color: #636363;
+    text-transform: capitalize;
+    font-size: 16px;
+    width: 226px;
+    padding: 13px 0 14px 20px;
+    border-radius: 5px;
+    border: 2px solid #e3f2fd;
+    margin-bottom: 16px;
+}
+.input-lastname {
+    color: #636363;
+    text-transform: capitalize;
+    font-size: 16px;
+    width: 214px;
+    margin-left: 17px;
+    padding: 13px 0 14px 32px;
+    border-radius: 5px;
+    border: 2px solid #e3f2fd;
+}
+.input-email {
+    color: #636363;
+    font-size: 16px;
+    width: 226px;
+    padding: 13px 0 14px 20px;
+    border-radius: 5px;
+    border: 2px solid #e3f2fd;
+}
+.select-app-design {
+    color: #636363;
+    text-transform: capitalize;
+    font-size: 16px;
+    width: 250px;
+    height: 51px;
+    margin-left: 17px;
+    padding: 9px 0 9px 32px;
+    border-radius: 5px;
+    border: 2px solid #e3f2fd;
+}
+.textarea-query {
+    color: #636363;
+    font-size: 16px;
+    height: 69px;
+    width: 495px;
+    margin-top: 17px;
+    padding: 13px 0 14px 20px;
+    border-radius: 5px;
+    border: 2px solid #e3f2fd;
+    resize: none;
+}
+option:disabled {
+    color: #999999;
+}
+.submit-button {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    margin: 12px 0 0 402px;
+    padding: 0 0 0 0;
+    width: 120px;
+    height: 45px;
+    border-radius: 7px;
+    background-color: #ef5350;
+}
+.input-firstname:focus, .input-lastname:focus, .input-email:focus, .select-app-design:focus, .textarea-query:focus, .submit-button:focus {
+    outline: none;
+}
+.submit-button:hover {
+    background-color: white;
+    color: #ef5350;
+    border: 2px solid #ef5350;
 }
