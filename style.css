@@ -84,3 +84,9 @@ body {
 .email {
     margin-left: 600px;
 }
+.lines {
+    position: relative;
+    top: -100px;
+    left: -570px;
+    z-index: 10;
+}
