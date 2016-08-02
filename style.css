@@ -72,6 +72,7 @@ body {
 }
 .content-container {
     margin-left: 600px;
+    padding-top: 182px;
 }
 .lets-talk-form {
     float: right;
@@ -133,4 +134,41 @@ body {
     position: relative;
     top: 91px;
     left: 28px;
+}
+.content-header {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: white;
+    padding-left: 32px;
+}
+.content-info {
+    font-size: 18px;
+    color: white;
+    width: 523px;
+    margin: 26px 0 0 32px;
+}
+.button-knowmore {
+    margin: 55px 0 0 366px;
+}
+.button-knowmore a:link{
+    display: block;
+    font-size: 18px;
+    padding: 15px 0 0 22px;
+    height: 38px;
+    width: 144px;
+    background-color: #04e4a2;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 6px;
+    color: white;
+}
+.button-knowmore a:visited{
+    color: white;
+}
+.button-knowmore a:hover{
+    color: #04e4a2;
+    background-color: white;
+}
+.button-knowmore a:active{
+
 }
