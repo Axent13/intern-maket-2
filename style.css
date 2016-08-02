@@ -86,7 +86,51 @@ body {
 }
 .lines {
     position: relative;
-    top: -100px;
+    top: -914px;
     left: -570px;
     z-index: 10;
+}
+.phone {
+    position: relative;
+    top: 64px;
+    left: 116px;
+    z-index: 100;
+}
+.phone-body {
+    width: 388px;
+    height: 814px;
+    background-color: #100c0c;
+    border-radius: 59px;
+}
+.phone-camera {
+    position: relative;
+    top: 33px;
+    left: 185px;
+    width: 17px;
+    height: 17px;
+    background-color: #ef5350;
+    border-radius: 10px;
+}
+.phone-dynamic {
+    position: relative;
+    top: 52px;
+    left: 161px;
+    width: 63px;
+    height: 7px;
+    background-color: #ef5350;
+    border-radius: 10px;
+}
+.phone-button {
+    position: relative;
+    top: 694px;
+    left: 159px;
+    width: 59px;
+    height: 59px;
+    border: 5px solid white;
+    border-radius: 40px;
+}
+.phone-screen {
+    position: relative;
+    top: 91px;
+    left: 28px;
 }
