@@ -81,9 +81,10 @@ body {
 }
 .copyright {
     float: left;
-    width: 600px;
+    width: 517px;
+    padding: 2px 0 0 115px;
 }
-.email {
+.email-block {
     margin-left: 600px;
 }
 .lines {
@@ -255,4 +256,20 @@ option:disabled {
     background-color: white;
     color: #ef5350;
     border: 2px solid #ef5350;
+}
+.footer {
+    margin-top: 53px;
+}
+.mail-icon {
+    vertical-align: middle;
+}
+.copyright {
+    color: #636363;
+}
+.email {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 0 0 18px;
+    text-decoration: none;
+    color: #636363;
 }
