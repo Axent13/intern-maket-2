@@ -218,9 +218,13 @@ body {
     width: 250px;
     height: 51px;
     margin-left: 17px;
-    padding: 9px 0 9px 32px;
+    padding: 9px 0 9px 33px;
     border-radius: 5px;
     border: 2px solid #e3f2fd;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("img/select-arrow.png") 208px 20px no-repeat;
+    cursor: pointer;
 }
 .textarea-query {
     color: #636363;
