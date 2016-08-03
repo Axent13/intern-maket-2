@@ -1,6 +1,6 @@
 body {
     padding: 0;
-    margin: 0;
+    margin: 0 0 40px 0;
 }
 .layout-positioner {
     width: 1200px;
@@ -115,11 +115,19 @@ body {
     left: 116px;
     z-index: 100;
 }
-.phone-body {
+.phone-top-body {
     width: 388px;
-    height: 814px;
+    height: 519px;
     background-color: #100c0c;
-    border-radius: 59px;
+    border-top-left-radius: 59px;
+    border-top-right-radius: 59px;
+}
+.phone-bottom-body {
+    width: 388px;
+    height: 295px;
+    background-color: #1d1d1d;
+    border-bottom-left-radius: 59px;
+    border-bottom-right-radius: 59px;
 }
 .phone-camera {
     position: relative;
