@@ -6,6 +6,11 @@ body {
     width: 1200px;
     margin: 0 auto;
 }
+@media only screen and (max-width: 1242px) {
+    .layout-positioner {
+        width: 100%;
+    }
+}
 .header-green-line {
     min-height: 22px;
     background-color: #04e4a2;
@@ -26,6 +31,22 @@ body {
     float: right;
     font-size: 16px;
     text-transform: uppercase;
+}
+@media only screen and (max-width: 1242px){
+    .logo {
+        float: none;
+        width: 158px;
+        margin: 0 auto;
+        font-size: 35px;
+        color: white;
+    }
+    .contact-us {
+        margin: 0 auto;
+        float: none;
+        width: 110px;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
 }
 .contact-us a:link{
     display: block;
@@ -59,10 +80,20 @@ body {
     min-height: 583px;
     background-color: #ef5350;
 }
+@media only screen and (max-width: 1242px){
+    .content-and-phone-container {
+        min-height: 0;
+    }
+}
 .phone-container {
     float: left;
     width: 502px;
     height: 583px;
+}
+@media only screen and (max-width: 1242px) {
+    .phone-container {
+        display: none;
+    }
 }
 .clearfix::after {
     content: "";
@@ -73,17 +104,39 @@ body {
     margin-left: 600px;
     padding-top: 182px;
 }
+@media only screen and (max-width: 1242px){
+    .content-container {
+        padding: 0;
+        width: 600px;
+        margin: 0 auto;
+    }
+}
 .lets-talk-container {
     float: right;
     width: 600px;
+}
+@media only screen and (max-width: 1242px){
+    .lets-talk-container {
+        float: none;
+        margin: 0 auto;
+    }
 }
 .copyright {
     float: left;
     width: 517px;
     padding: 2px 0 0 115px;
 }
-.email-block {
-    margin-left: 600px;
+@media only screen and (max-width: 1242px) {
+    .copyright {
+        float: none;
+        width: 183px;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .email-part {
+        width: 232px;
+        margin: 0 auto;
+    }
 }
 .top-line {
     position: relative;
@@ -175,6 +228,12 @@ body {
 }
 .button-knowmore {
     margin: 55px 0 0 366px;
+}
+@media only screen and (max-width: 1242px){
+    .button-knowmore {
+        margin: 0 auto;
+        width: 166px;
+    }
 }
 .button-knowmore a:link{
     display: block;
