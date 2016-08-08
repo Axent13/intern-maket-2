@@ -2,6 +2,11 @@ body {
     padding: 0;
     margin: 0 0 40px 0;
 }
+@media only screen and (max-width: 640px){
+    body {
+        margin: 0;
+    }
+}
 .layout-positioner {
     width: 1200px;
     margin: 0 auto;
@@ -83,6 +88,7 @@ body {
 @media only screen and (max-width: 1242px){
     .content-and-phone-container {
         min-height: 0;
+        padding: 20px 0 20px 0;
     }
 }
 .phone-container {
@@ -111,6 +117,11 @@ body {
         margin: 0 auto;
     }
 }
+@media only screen and (max-width: 640px){
+    .content-container {
+        width: 90%;
+    }
+}
 .lets-talk-container {
     float: right;
     width: 600px;
@@ -119,6 +130,11 @@ body {
     .lets-talk-container {
         float: none;
         margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 640px){
+    .lets-talk-container {
+        width: 90%;
     }
 }
 .copyright {
@@ -135,7 +151,7 @@ body {
     }
     .email-part {
         width: 232px;
-        margin: 0 auto;
+        margin: 10px auto 0 auto;
     }
 }
 .top-line {
@@ -226,6 +242,16 @@ body {
     width: 523px;
     margin: 26px 0 0 32px;
 }
+@media only screen and (max-width: 1242px){
+    .content-info {
+        margin: 26px 0 20px 32px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .content-info {
+        width: 80%;
+    }
+}
 .button-knowmore {
     margin: 55px 0 0 366px;
 }
@@ -260,11 +286,21 @@ body {
 .lets-talk-form {
     padding: 16px 0 0 32px;
 }
+@media only screen and (max-width: 640px){
+    .lets-talk-form {
+        padding: 16px 0 0 0;
+    }
+}
 .form-header {
     font-size: 20px;
     color: #ff8a80;
     padding: 28px 0 0 55px;
     text-transform: capitalize;
+}
+@media only screen and (max-width: 640px){
+    .form-header {
+        padding: 28px 0 0 22px;
+    }
 }
 .input-firstname {
     color: #636363;
@@ -320,9 +356,33 @@ body {
     border: 2px solid #e3f2fd;
     resize: none;
 }
+@media only screen and (max-width: 640px){
+    .input-firstname {
+        width: 95%;
+    }
+    .input-lastname {
+        width: 95%;
+        margin-left: 0;
+        padding: 13px 0 14px 20px;
+    }
+    .input-email {
+        width: 95%;
+        margin-top: 16px;
+    }
+    .select-app-design {
+        width: 100%;
+        margin: 16px 0 0 0;
+        padding: 13px 0 14px 20px;
+        background: url("img/select-arrow.png") 95% 20px no-repeat;
+    }
+    .textarea-query {
+        width: 95%;
+    }
+}
 option:disabled {
     color: #999999;
 }
+
 .submit-button {
     color: white;
     font-size: 20px;
@@ -336,6 +396,11 @@ option:disabled {
     border-radius: 7px;
     background-color: #ef5350;
 }
+@media only screen and (max-width: 640px){
+    .submit-button {
+        margin: 0 auto;
+    }
+}
 .input-firstname:focus, .input-lastname:focus, .input-email:focus, .select-app-design:focus, .textarea-query:focus, .submit-button:focus {
     outline: none;
 }
@@ -346,6 +411,11 @@ option:disabled {
 }
 .footer {
     margin-top: 53px;
+}
+@media only screen and (max-width: 640px){
+    .footer {
+        margin-top: 20px;
+    }
 }
 .mail-icon {
     vertical-align: middle;
@@ -359,4 +429,10 @@ option:disabled {
     padding: 0 0 0 18px;
     text-decoration: none;
     color: #636363;
+}
+@media only screen and (max-width: 640px){
+    .submit-button-container {
+        margin: 10px auto;
+        width: 115px;
+    }
 }
