@@ -19,10 +19,14 @@ body {
 .header-green-line {
     min-height: 22px;
     background-color: #04e4a2;
+    position: relative;
+    z-index: 100;
 }
 .logo-and-contactus {
+    position: relative;
     min-height: 78px;
     background-color: #e94643;
+    z-index: 100;
 }
 .logo {
     float: left;
