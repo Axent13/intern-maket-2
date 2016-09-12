@@ -1,3 +1,9 @@
+html {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    font-family: Helvetica, Arial, sans-serif;
+}
 body {
     padding: 0;
     margin: 0 0 40px 0;
@@ -310,8 +316,8 @@ body {
     color: #636363;
     text-transform: capitalize;
     font-size: 16px;
-    width: 226px;
-    padding: 13px 0 14px 20px;
+    width: 216px;
+    padding: 13px 10px 14px 20px;
     border-radius: 5px;
     border: 2px solid #e3f2fd;
     margin-bottom: 16px;
@@ -320,17 +326,17 @@ body {
     color: #636363;
     text-transform: capitalize;
     font-size: 16px;
-    width: 214px;
+    width: 204px;
     margin-left: 17px;
-    padding: 13px 0 14px 32px;
+    padding: 13px 10px 14px 32px;
     border-radius: 5px;
     border: 2px solid #e3f2fd;
 }
 .input-email {
     color: #636363;
     font-size: 16px;
-    width: 226px;
-    padding: 13px 0 14px 20px;
+    width: 216px;
+    padding: 13px 10px 14px 20px;
     border-radius: 5px;
     border: 2px solid #e3f2fd;
 }
@@ -341,7 +347,7 @@ body {
     width: 250px;
     height: 51px;
     margin-left: 17px;
-    padding: 9px 0 9px 33px;
+    padding: 9px 50px 9px 33px;
     border-radius: 5px;
     border: 2px solid #e3f2fd;
     -webkit-appearance: none;
@@ -353,9 +359,9 @@ body {
     color: #636363;
     font-size: 16px;
     height: 69px;
-    width: 495px;
+    width: 485px;
     margin-top: 17px;
-    padding: 13px 0 14px 20px;
+    padding: 13px 10px 14px 20px;
     border-radius: 5px;
     border: 2px solid #e3f2fd;
     resize: none;
@@ -405,8 +411,14 @@ option:disabled {
         margin: 0 auto;
     }
 }
-.input-firstname:focus, .input-lastname:focus, .input-email:focus, .select-app-design:focus, .textarea-query:focus, .submit-button:focus {
+.input-firstname:focus,
+.input-lastname:focus,
+.input-email:focus,
+.select-app-design:focus,
+.textarea-query:focus,
+.submit-button:focus {
     outline: none;
+    border-color: #999999;
 }
 .submit-button:hover {
     background-color: white;
