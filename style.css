@@ -34,6 +34,13 @@ body {
     background-color: #e94643;
     z-index: 100;
 }
+@media only screen and (max-width: 1242px){
+    .wrapper {
+        padding: 0;
+        width: 515px;
+        margin: 0 auto;
+    }
+}
 .logo {
     float: left;
     width: 600px;
@@ -49,15 +56,13 @@ body {
 }
 @media only screen and (max-width: 1242px){
     .logo {
-        float: none;
+        margin: 15px 0 0 0;
         width: 158px;
-        margin: 0 auto;
         font-size: 35px;
         color: white;
     }
     .contact-us {
-        margin: 0 auto;
-        float: none;
+        margin: 26px 0 0 0;
         width: 110px;
         font-size: 16px;
         text-transform: uppercase;
@@ -154,14 +159,13 @@ body {
 }
 @media only screen and (max-width: 1242px) {
     .copyright {
-        float: none;
         width: 183px;
         padding: 0;
-        margin: 0 auto;
     }
     .email-part {
+        float: right;
         width: 232px;
-        margin: 10px auto 0 auto;
+        padding: 0;
     }
 }
 .top-line {
@@ -267,7 +271,6 @@ body {
 }
 @media only screen and (max-width: 1242px){
     .button-knowmore {
-        margin: 0 auto;
         width: 166px;
     }
 }
@@ -373,14 +376,14 @@ body {
     .input-lastname {
         width: 95%;
         margin-left: 0;
-        padding: 13px 0 14px 20px;
+        padding: 13px 10px 14px 20px;
     }
     .input-email {
         width: 95%;
         margin-top: 16px;
     }
     .select-app-design {
-        width: 100%;
+        width: 100.7%;
         margin: 16px 0 0 0;
         padding: 13px 0 14px 20px;
         background: url("img/select-arrow.png") 95% 20px no-repeat;
@@ -392,7 +395,6 @@ body {
 option:disabled {
     color: #999999;
 }
-
 .submit-button {
     color: white;
     font-size: 20px;
