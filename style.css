@@ -57,9 +57,8 @@ body {
         width: 100%;
     }
 }
-.header-green-line {
-    min-height: 22px;
-    background-color: #04e4a2;
+.header {
+    border-top: 22px solid #04e4a2;
     position: relative;
     z-index: 100;
 }
