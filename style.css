@@ -82,6 +82,14 @@ body {
     font-size: 35px;
     color: white;
 }
+@media only screen and (max-width: 1242px) {
+    .logo {
+        margin: 15px 0 0 0;
+        width: 158px;
+        font-size: 35px;
+        color: white;
+    }
+}
 .contact-us {
     margin: 26px 2px 0 0;
     float: right;
@@ -89,12 +97,6 @@ body {
     text-transform: uppercase;
 }
 @media only screen and (max-width: 1242px){
-    .logo {
-        margin: 15px 0 0 0;
-        width: 158px;
-        font-size: 35px;
-        color: white;
-    }
     .contact-us {
         margin: 26px 0 0 0;
         width: 110px;
@@ -187,16 +189,18 @@ body {
     width: 517px;
     padding: 2px 0 0 115px;
 }
+@media only screen and (max-width: 1242px) {
+    .copyright {
+        width: 183px;
+        padding: 0;
+    }
+}
 .email-part {
     float: right;
     width: 232px;
     margin-right: 335px;
 }
 @media only screen and (max-width: 1242px) {
-    .copyright {
-        width: 183px;
-        padding: 0;
-    }
     .email-part {
         margin: 0;
         padding: 0;
@@ -327,9 +331,6 @@ body {
     color: #04e4a2;
     background-color: white;
 }
-.button-knowmore a:active{
-
-}
 .lets-talk-form {
     padding: 16px 0 0 32px;
     width: 521px;
@@ -364,6 +365,11 @@ body {
     border-radius: 5px;
     border: 2px solid #e3f2fd;
 }
+@media only screen and (max-width: 640px) {
+    .input-firstname {
+        width: 95%;
+    }
+}
 .input-lastname {
     color: #636363;
     text-transform: capitalize;
@@ -375,6 +381,12 @@ body {
     border-radius: 5px;
     border: 2px solid #e3f2fd;
 }
+@media only screen and (max-width: 640px) {
+    .input-lastname {
+        width: 95%;
+        padding: 0 10px 0 20px;
+    }
+}
 .input-email {
     color: #636363;
     font-size: 16px;
@@ -385,7 +397,14 @@ body {
     border-radius: 5px;
     border: 2px solid #e3f2fd;
 }
+@media only screen and (max-width: 640px) {
+    .input-email {
+        width: 95%;
+    }
+}
 .select-app-design {
+    -webkit-appearance: none;
+    -moz-appearance: none;
     color: #636363;
     text-transform: capitalize;
     font-size: 16px;
@@ -394,10 +413,15 @@ body {
     padding: 0 10px 0 33px;
     border-radius: 5px;
     border: 2px solid #e3f2fd;
-    -webkit-appearance: none;
-    -moz-appearance: none;
     background: url("img/select-arrow.png") 208px 20px no-repeat;
     cursor: pointer;
+}
+@media only screen and (max-width: 640px) {
+    .select-app-design {
+        width: 100.7%;
+        padding: 13px 0 14px 20px;
+        background: url("img/select-arrow.png") 95% 20px no-repeat;
+    }
 }
 .textarea-query {
     color: #636363;
@@ -410,21 +434,6 @@ body {
     resize: none;
 }
 @media only screen and (max-width: 640px){
-    .input-firstname {
-        width: 95%;
-    }
-    .input-lastname {
-        width: 95%;
-        padding: 0 10px 0 20px;
-    }
-    .input-email {
-        width: 95%;
-    }
-    .select-app-design {
-        width: 100.7%;
-        padding: 13px 0 14px 20px;
-        background: url("img/select-arrow.png") 95% 20px no-repeat;
-    }
     .textarea-query {
         width: 95%;
     }
