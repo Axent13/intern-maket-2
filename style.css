@@ -3,15 +3,20 @@ html {
     color: black;
     background-color: white;
     font-family: Helvetica, Arial, sans-serif;
+    height: 100%;
 }
 body {
     padding: 0;
     margin: 0 0 40px 0;
+    height: 100%;
 }
 @media only screen and (max-width: 640px){
     body {
         margin: 0;
     }
+}
+.content {
+    min-height: calc(100vh - 80px);
 }
 .layout-positioner {
     width: 1200px;
@@ -116,11 +121,6 @@ body {
         display: none;
     }
 }
-.clearfix::after {
-    content: "";
-    display: table;
-    clear:both;
-}
 .content-container {
     margin-left: 600px;
     padding-top: 182px;
@@ -140,11 +140,12 @@ body {
 .lets-talk-container {
     float: right;
     width: 600px;
+    margin-bottom: 54px;
 }
 @media only screen and (max-width: 1242px){
     .lets-talk-container {
         float: none;
-        margin: 0 auto;
+        margin: 0 auto 30px auto;
     }
 }
 @media only screen and (max-width: 640px){
@@ -157,14 +158,18 @@ body {
     width: 517px;
     padding: 2px 0 0 115px;
 }
+.email-part {
+    float: right;
+    width: 232px;
+    margin-right: 335px;
+}
 @media only screen and (max-width: 1242px) {
     .copyright {
         width: 183px;
         padding: 0;
     }
     .email-part {
-        float: right;
-        width: 232px;
+        margin: 0;
         padding: 0;
     }
 }
@@ -426,14 +431,6 @@ option:disabled {
     background-color: white;
     color: #ef5350;
     border: 2px solid #ef5350;
-}
-.footer {
-    margin-top: 53px;
-}
-@media only screen and (max-width: 640px){
-    .footer {
-        margin-top: 20px;
-    }
 }
 .mail-icon {
     vertical-align: middle;
