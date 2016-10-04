@@ -332,6 +332,10 @@ body {
 }
 .lets-talk-form {
     padding: 16px 0 0 32px;
+    width: 521px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 @media only screen and (max-width: 640px){
     .lets-talk-form {
@@ -354,18 +358,20 @@ body {
     text-transform: capitalize;
     font-size: 16px;
     width: 216px;
-    padding: 13px 10px 14px 20px;
+    min-height: 45px;
+    margin-bottom: 17px;
+    padding: 0 10px 0 20px;
     border-radius: 5px;
     border: 2px solid #e3f2fd;
-    margin-bottom: 16px;
 }
 .input-lastname {
     color: #636363;
     text-transform: capitalize;
     font-size: 16px;
     width: 204px;
-    margin-left: 17px;
-    padding: 13px 10px 14px 32px;
+    min-height: 45px;
+    margin-bottom: 17px;
+    padding: 0 10px 0 32px;
     border-radius: 5px;
     border: 2px solid #e3f2fd;
 }
@@ -373,7 +379,9 @@ body {
     color: #636363;
     font-size: 16px;
     width: 216px;
-    padding: 13px 10px 14px 20px;
+    min-height: 47px;
+    margin-bottom: 17px;
+    padding: 0 10px 0 20px;
     border-radius: 5px;
     border: 2px solid #e3f2fd;
 }
@@ -382,9 +390,8 @@ body {
     text-transform: capitalize;
     font-size: 16px;
     width: 250px;
-    height: 51px;
-    margin-left: 17px;
-    padding: 9px 50px 9px 33px;
+    margin-bottom: 17px;
+    padding: 0 10px 0 33px;
     border-radius: 5px;
     border: 2px solid #e3f2fd;
     -webkit-appearance: none;
@@ -395,11 +402,10 @@ body {
 .textarea-query {
     color: #636363;
     font-size: 16px;
-    height: 69px;
-    width: 485px;
-    margin-top: 17px;
-    padding: 13px 10px 14px 20px;
+    min-height: 83px;
+    width: 484px;
     border-radius: 5px;
+    padding: 13px 10px 0 22px;
     border: 2px solid #e3f2fd;
     resize: none;
 }
@@ -409,16 +415,13 @@ body {
     }
     .input-lastname {
         width: 95%;
-        margin-left: 0;
-        padding: 13px 10px 14px 20px;
+        padding: 0 10px 0 20px;
     }
     .input-email {
         width: 95%;
-        margin-top: 16px;
     }
     .select-app-design {
         width: 100.7%;
-        margin: 16px 0 0 0;
         padding: 13px 0 14px 20px;
         background: url("img/select-arrow.png") 95% 20px no-repeat;
     }
@@ -435,10 +438,10 @@ option:disabled {
     text-transform: uppercase;
     cursor: pointer;
     border: none;
-    margin: 12px 0 0 402px;
-    padding: 0 0 0 0;
+    margin: 15px 0 0 402px;
+    padding: 0;
     width: 120px;
-    height: 45px;
+    min-height: 45px;
     border-radius: 7px;
     background-color: #ef5350;
 }
