@@ -62,7 +62,7 @@ body {
     position: relative;
     z-index: 100;
 }
-.logo-and-contactus {
+header__content {
     position: relative;
     min-height: 78px;
     background-color: #e94643;
@@ -75,7 +75,7 @@ body {
         margin: 0 auto;
     }
 }
-.logo {
+.header__logo {
     float: left;
     width: 600px;
     margin: 16px 0 0 152px;
@@ -83,130 +83,131 @@ body {
     color: white;
 }
 @media only screen and (max-width: 1242px) {
-    .logo {
+    .header__logo {
         margin: 15px 0 0 0;
         width: 158px;
         font-size: 35px;
         color: white;
     }
 }
-.contact-us {
+.header__contact-us {
     margin: 26px 2px 0 0;
     float: right;
     font-size: 16px;
     text-transform: uppercase;
 }
 @media only screen and (max-width: 1242px){
-    .contact-us {
+    .header__contact-us {
         margin: 26px 0 0 0;
         width: 110px;
         font-size: 16px;
         text-transform: uppercase;
     }
 }
-.contact-us a:link{
+.header__contact-us a:link{
     display: block;
     height: 21px;
     color: white;
     text-decoration: none;
     border-bottom: 3px solid #fdd835;
 }
-.contact-us a:visited{
+.header__contact-us a:visited{
     display: block;
     height: 21px;
     color: white;
     text-decoration: none;
     border-bottom: 3px solid #fdd835;
 }
-.contact-us a:hover{
+.header__contact-us a:hover{
     display: block;
     height: 21px;
     color: #fdd835;
     text-decoration: none;
     border-bottom: 3px solid #fdd835;
 }
-.contact-us a:active{
+.header__contact-us a:active{
     display: block;
     height: 21px;
     color: #fdd835;
     text-decoration: none;
     border-bottom: 3px solid #fdd835;
 }
-.content-and-phone-container {
+.main {
     min-height: 583px;
     background-color: #ef5350;
 }
 @media only screen and (max-width: 1242px){
-    .content-and-phone-container {
+    .main {
         min-height: 0;
         padding: 20px 0 20px 0;
     }
 }
-.phone-container {
+.main__phone-container {
     float: left;
     width: 502px;
     height: 583px;
 }
 @media only screen and (max-width: 1242px) {
-    .phone-container {
+    .main__phone-container {
         display: none;
     }
 }
-.content-container {
+.main__content {
     margin-left: 600px;
     padding-top: 182px;
 }
 @media only screen and (max-width: 1242px){
-    .content-container {
+    .main__content {
         padding: 0;
         width: 600px;
         margin: 0 auto;
     }
 }
 @media only screen and (max-width: 640px){
-    .content-container {
+    .main__content {
         width: 90%;
     }
 }
-.lets-talk-container {
+.lets-talk {
     float: right;
     width: 600px;
     margin-bottom: 54px;
 }
 @media only screen and (max-width: 1242px){
-    .lets-talk-container {
+    .lets-talk {
         float: none;
         margin: 0 auto 30px auto;
     }
 }
 @media only screen and (max-width: 640px){
-    .lets-talk-container {
+    .lets-talk {
         width: 90%;
     }
 }
-.copyright {
+.footer__copyright {
     float: left;
     width: 517px;
     padding: 2px 0 0 115px;
+    color: #636363;
 }
 @media only screen and (max-width: 1242px) {
-    .copyright {
+    .footer__copyright {
         width: 183px;
         padding: 0;
     }
 }
-.email-part {
+.footer__email-part {
     float: right;
     width: 232px;
     margin-right: 335px;
 }
 @media only screen and (max-width: 1242px) {
-    .email-part {
+    .footer__email-part {
         margin: 0;
         padding: 0;
     }
 }
-.top-line {
+.main__top-line {
     position: relative;
     top: -667px;
     left: -731px;
@@ -218,7 +219,7 @@ body {
     width: 1417px;
     transform: rotate(0.655rad);
 }
-.bottom-line {
+.main__bottom-line {
     position: relative;
     top: -644px;
     left: -720px;
@@ -236,21 +237,21 @@ body {
     left: 116px;
     z-index: 100;
 }
-.phone-top-body {
+.phone__top-body {
     width: 388px;
     height: 519px;
     background-color: #100c0c;
     border-top-left-radius: 59px;
     border-top-right-radius: 59px;
 }
-.phone-bottom-body {
+.phone__bottom-body {
     width: 388px;
     height: 295px;
     background-color: #1d1d1d;
     border-bottom-left-radius: 59px;
     border-bottom-right-radius: 59px;
 }
-.phone-camera {
+.phone__camera {
     position: relative;
     top: 33px;
     left: 185px;
@@ -259,7 +260,7 @@ body {
     background-color: #ef5350;
     border-radius: 10px;
 }
-.phone-dynamic {
+.phone__dynamic {
     position: relative;
     top: 52px;
     left: 161px;
@@ -268,7 +269,7 @@ body {
     background-color: #ef5350;
     border-radius: 10px;
 }
-.phone-button {
+.phone__button {
     position: relative;
     top: 106px;
     left: 159px;
@@ -277,42 +278,42 @@ body {
     border: 5px solid white;
     border-radius: 40px;
 }
-.phone-screen {
+.phone__screen {
     position: relative;
     top: 91px;
     left: 28px;
 }
-.content-header {
+.content__header {
     text-transform: uppercase;
     font-size: 30px;
     color: white;
     padding-left: 32px;
 }
-.content-info {
+.content__info {
     font-size: 18px;
     color: white;
     width: 523px;
     margin: 26px 0 0 32px;
 }
 @media only screen and (max-width: 1242px){
-    .content-info {
+    .content__info {
         margin: 26px 0 20px 32px;
     }
 }
 @media only screen and (max-width: 640px) {
-    .content-info {
+    .content__info {
         width: 80%;
     }
 }
-.button-knowmore {
+.content__button {
     margin: 55px 0 0 366px;
 }
 @media only screen and (max-width: 1242px){
-    .button-knowmore {
+    .content__button {
         width: 166px;
     }
 }
-.button-knowmore a:link{
+.content__button a:link{
     display: block;
     font-size: 18px;
     padding: 15px 0 0 22px;
@@ -324,14 +325,14 @@ body {
     border-radius: 6px;
     color: white;
 }
-.button-knowmore a:visited{
+.content__button a:visited{
     color: white;
 }
-.button-knowmore a:hover{
+.content__button a:hover{
     color: #04e4a2;
     background-color: white;
 }
-.lets-talk-form {
+.lets-talk__form {
     padding: 16px 0 0 32px;
     width: 521px;
     display: flex;
@@ -339,22 +340,22 @@ body {
     justify-content: space-between;
 }
 @media only screen and (max-width: 640px){
-    .lets-talk-form {
+    .lets-talk__form {
         padding: 16px 0 0 0;
     }
 }
-.form-header {
+.lets-talk__header {
     font-size: 20px;
     color: #ff8a80;
     padding: 28px 0 0 55px;
     text-transform: capitalize;
 }
 @media only screen and (max-width: 640px){
-    .form-header {
+    .lets-talk__header {
         padding: 28px 0 0 22px;
     }
 }
-.input-firstname {
+.lets-talk__firstname {
     color: #636363;
     text-transform: capitalize;
     font-size: 16px;
@@ -366,11 +367,11 @@ body {
     border: 2px solid #e3f2fd;
 }
 @media only screen and (max-width: 640px) {
-    .input-firstname {
+    .lets-talk__firstname {
         width: 95%;
     }
 }
-.input-lastname {
+.lets-talk__lastname {
     color: #636363;
     text-transform: capitalize;
     font-size: 16px;
@@ -382,12 +383,12 @@ body {
     border: 2px solid #e3f2fd;
 }
 @media only screen and (max-width: 640px) {
-    .input-lastname {
+    .lets-talk__lastname {
         width: 95%;
         padding: 0 10px 0 20px;
     }
 }
-.input-email {
+.lets-talk__email {
     color: #636363;
     font-size: 16px;
     width: 216px;
@@ -398,11 +399,11 @@ body {
     border: 2px solid #e3f2fd;
 }
 @media only screen and (max-width: 640px) {
-    .input-email {
+    .lets-talk__email {
         width: 95%;
     }
 }
-.select-app-design {
+.lets-talk__design {
     -webkit-appearance: none;
     -moz-appearance: none;
     color: #636363;
@@ -417,13 +418,13 @@ body {
     cursor: pointer;
 }
 @media only screen and (max-width: 640px) {
-    .select-app-design {
+    .lets-talk__design {
         width: 100.7%;
         padding: 13px 0 14px 20px;
         background: url("img/select-arrow.png") 95% 20px no-repeat;
     }
 }
-.textarea-query {
+.lets-talk__query {
     color: #636363;
     font-size: 16px;
     min-height: 83px;
@@ -434,14 +435,14 @@ body {
     resize: none;
 }
 @media only screen and (max-width: 640px){
-    .textarea-query {
+    .lets-talk__query {
         width: 95%;
     }
 }
 option:disabled {
     color: #999999;
 }
-.submit-button {
+.lets-talk__submit-button {
     color: white;
     font-size: 20px;
     text-transform: uppercase;
@@ -455,20 +456,20 @@ option:disabled {
     background-color: #ef5350;
 }
 @media only screen and (max-width: 640px){
-    .submit-button {
+    .lets-talk__submit-button {
         margin: 0 auto;
     }
 }
-.input-firstname:focus,
-.input-lastname:focus,
-.input-email:focus,
-.select-app-design:focus,
-.textarea-query:focus,
-.submit-button:focus {
+.lets-talk__firstname:focus,
+.lets-talk__lastname:focus,
+.lets-talk__email:focus,
+.lets-talk__design:focus,
+.lets-talk__query:focus,
+.lets-talk__submit-button:focus {
     outline: none;
     border-color: #999999;
 }
-.submit-button:hover {
+.lets-talk__submit-button:hover {
     background-color: white;
     color: #ef5350;
     border: 2px solid #ef5350;
@@ -476,10 +477,7 @@ option:disabled {
 .mail-icon {
     vertical-align: middle;
 }
-.copyright {
-    color: #636363;
-}
-.email {
+.footer__email {
     display: inline-block;
     vertical-align: middle;
     padding: 0 0 0 18px;
@@ -487,7 +485,7 @@ option:disabled {
     color: #636363;
 }
 @media only screen and (max-width: 640px){
-    .submit-button-container {
+    .lets-talk__submit {
         margin: 10px auto;
         width: 115px;
     }
