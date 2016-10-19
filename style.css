@@ -62,7 +62,7 @@ body {
     position: relative;
     z-index: 100;
 }
-header__content {
+.header__content {
     position: relative;
     min-height: 78px;
     background-color: #e94643;
@@ -288,12 +288,14 @@ header__content {
     font-size: 30px;
     color: white;
     padding-left: 32px;
+    line-height: 36px;
 }
 .content__info {
     font-size: 18px;
     color: white;
     width: 523px;
     margin: 26px 0 0 32px;
+    line-height: 22px;
 }
 @media only screen and (max-width: 1242px){
     .content__info {
