@@ -1,0 +1,16 @@
+.layout-positioner
+    section.lets-talk.font-light
+        .lets-talk__header
+        form.lets-talk__form(action='#', method='post')
+             input#first-name-field.lets-talk__firstname.font-light(type='text', name='first-name', value='First name')
+             input#last-name-field.lets-talk__lastname.font-light(type='text', name='last-name', value='Last name')
+             input#email-field.lets-talk__email.font-light(type='email', name='email', value='Email Address')
+             select#app-design-field.lets-talk__design.font-light(name='app-design')
+                 option(selected='', disabled='', hidden='') App Design
+                 option(value='1') Design 1
+                 option(value='2') Design 2
+                 option(value='3') Design 3
+             textarea#query-field.lets-talk__query.font-light(name='query', rows='4') Type your query here
+             .lets-talk__submit
+                 input.lets-talk__submit-button.font-semibold(type='submit', name='submit', value='Send')
+

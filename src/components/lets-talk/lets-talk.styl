@@ -1,0 +1,121 @@
+.lets-talk
+  float right
+  width 600px
+  margin-bottom 54px
+  @media only screen and (max-width 1242px)
+    float none
+    margin 0 auto 30px auto
+  @media only screen and (max-width 640px)
+    width 90
+  &__form
+    padding 16px 0 0 32px
+    width 521px
+    display flex
+    flex-wrap wrap
+    justify-content space-between
+    @media only screen and (max-width 640px)
+      padding 16px 0 0 0
+  &__header
+    font-size 20px
+    color #ff8a80
+    padding 28px 0 0 55px
+    text-transform capitalize
+    @media only screen and (max-width 640px)
+      padding 28px 0 0 22px
+  &__firstname
+    color #636363
+    text-transform capitalize
+    font-size 16px
+    width 216px
+    min-height 45px
+    margin-bottom 17px
+    padding 0 10px 0 20px
+    border-radius 5px
+    border 2px solid #e3f2fd
+    @media only screen and (max-width 640px)
+      width 95%
+  &__lastname
+    color #636363
+    text-transform capitalize
+    font-size 16px
+    width 204px
+    min-height 45px
+    margin-bottom 17px
+    padding 0 10px 0 32px
+    border-radius 5px
+    border 2px solid #e3f2fd
+    @media only screen and (max-width 640px)
+      width 95%
+      padding 0 10px 0 20px
+  &__email
+    color #636363
+    font-size 16px
+    width 216px
+    min-height 47px
+    margin-bottom 17px
+    padding 0 10px 0 20px
+    border-radius 5px
+    border 2px solid #e3f2fd
+    @media only screen and (max-width 640px)
+      width 95%
+  &__design
+    -webkit-appearance none
+    -moz-appearance none
+    color #636363
+    text-transform capitalize
+    font-size 16px
+    width 250px
+    margin-bottom 17px
+    padding 0 10px 0 33px
+    border-radius 5px
+    border 2px solid #e3f2fd
+    background url("./img/select-arrow.png") 208px 20px no-repeat
+    cursor pointer
+    @media only screen and (max-width 640px)
+      width 100.7%
+      padding 13px 0 14px 20px
+      background url("./img/select-arrow.png") 95% 20px no-repeat
+  &__query
+    color #636363
+    font-size 16px
+    min-height 83px
+    width 484px
+    border-radius 5px
+    padding 13px 10px 0 22px
+    border 2px solid #e3f2fd
+    resize none
+    @media only screen and (max-width 640px)
+      width 95%
+  &__submit-button
+    color white
+    font-size 20px
+    text-transform uppercase
+    cursor pointer
+    border none
+    margin 15px 0 0 402px
+    padding 0
+    width 120px
+    min-height 45px
+    border-radius 7px
+    background-color #ef5350
+    @media only screen and (max-width 640px)
+      margin 0 auto
+    &:hover
+      background-color white
+      color #ef5350
+      border 2px solid #ef5350
+  &__firstname:focus,
+  &__lastname:focus,
+  &__email:focus,
+  &__design:focus,
+  &__query:focus,
+  &__submit-button:focus
+    outline none
+    border-color #999999
+  &__submit
+    @media only screen and (max-width 640px)
+      margin 10px auto
+      width 115px
+
+option:disabled
+  color #999999
