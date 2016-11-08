@@ -12,6 +12,9 @@ body
   @media only screen and (max-width 640px)
     margin 0
 
+.main
+  min-height calc(100vh - 80px) //для прибития футера к низу
+
 .layout-positioner
   width 1200px
   margin 0 auto
@@ -23,3 +26,16 @@ body
     padding 0
     width 515px
     margin 0 auto
+
+.content
+  min-height 583px
+  background-color #ef5350
+  @media only screen and (max-width 1242px)
+    min-height 0
+    padding 20px 0 20px 0
+  &__phone-container
+    float left
+    width 502px
+    height 583px
+    @media only screen and (max-width 1242px)
+      display none

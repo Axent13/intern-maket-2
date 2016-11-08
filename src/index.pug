@@ -8,5 +8,13 @@ html
         title indipixel
         link(rel="shortcut icon" href="favicon.ico" type="image/x-icon")
     body
-        include components/content/content.pug
+        .main
+            include components/header/header.pug
+            .content
+                .layout-positioner
+                    .content__phone-container
+                        include components/phone/phone.pug
+                    include components/info/info.pug
+            .layout-positioner
+                include components/lets-talk/lets-talk.pug
         include components/footer/footer.pug
