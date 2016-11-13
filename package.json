@@ -2,9 +2,9 @@
   "name": "intern-maket-2",
   "version": "1.0.0",
   "description": "Test case for FSD",
-  "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/webpack-dev-server --config webpack/webpack.config.js"
+    "build": "./node_modules/.bin/webpack --config webpack/webpack.config.js"
+    "dev": "./node_modules/.bin/webpack-dev-server --config webpack/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
     "url": "https://github.com/Axent13/intern-maket-2/issues"
   },
   "homepage": "https://github.com/Axent13/intern-maket-2#readme",
-  "devDependencies": {
+  "dependencies": {
     "autoprefixer-loader": "^3.2.0",
     "babel-cli": "^6.18.0",
     "babel-core": "^6.18.2",
@@ -39,7 +39,9 @@
     "style-loader": "^0.13.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^2.3.1",
-    "webpack": "^1.13.3",
+    "webpack": "^1.13.3"
+  },
+  "devDependencies": {
     "webpack-dev-server": "^1.16.2"
   }
 }
