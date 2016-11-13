@@ -1,105 +1,100 @@
 .lets-talk
-  float right
   width 600px
-  margin-bottom 54px
-  @media only screen and (max-width 1242px)
-    float none
-    margin 0 auto 30px auto
-  @media only screen and (max-width 640px)
-    width 90
+  margin 0 auto 30px auto
+  @media only screen and (min-width 1242px)
+    float right
+    margin-bottom 54px
   &__form
     padding 16px 0 0 32px
     width 521px
     display flex
     flex-wrap wrap
     justify-content space-between
-    @media only screen and (max-width 640px)
-      padding 16px 0 0 0
   &__header
     font-size 20px
     color #ff8a80
-    padding 28px 0 0 55px
+    padding 28px 0 0 22px
     text-transform capitalize
-    @media only screen and (max-width 640px)
-      padding 28px 0 0 22px
+    @media only screen and (min-width 640px)
+      padding 28px 0 0 55px
   &__firstname
     color #636363
     text-transform capitalize
     font-size 16px
-    width 216px
+    width 95%
     min-height 45px
     margin-bottom 17px
     padding 0 10px 0 20px
     border-radius 5px
     border 2px solid #e3f2fd
-    @media only screen and (max-width 640px)
-      width 95%
+    @media only screen and (min-width 640px)
+      width 216px
   &__lastname
     color #636363
     text-transform capitalize
     font-size 16px
-    width 204px
+    width 95%
+    padding 0 10px 0 20px
     min-height 45px
     margin-bottom 17px
-    padding 0 10px 0 32px
     border-radius 5px
     border 2px solid #e3f2fd
-    @media only screen and (max-width 640px)
-      width 95%
-      padding 0 10px 0 20px
+    @media only screen and (min-width 640px)
+      width 204px
+      padding 0 10px 0 32px
   &__email
     color #636363
     font-size 16px
-    width 216px
+    width 95%
     min-height 47px
     margin-bottom 17px
     padding 0 10px 0 20px
     border-radius 5px
     border 2px solid #e3f2fd
-    @media only screen and (max-width 640px)
-      width 95%
+    @media only screen and (min-width 640px)
+      width 216px
   &__design
     -webkit-appearance none
     -moz-appearance none
     color #636363
     text-transform capitalize
     font-size 16px
-    width 250px
+    width 100.7%
+    padding 13px 0 14px 20px
+    background url("./img/select-arrow.png") 95% 20px no-repeat
     margin-bottom 17px
-    padding 0 10px 0 33px
     border-radius 5px
     border 2px solid #e3f2fd
-    background url("./img/select-arrow.png") 208px 20px no-repeat
     cursor pointer
-    @media only screen and (max-width 640px)
-      width 100.7%
-      padding 13px 0 14px 20px
-      background url("./img/select-arrow.png") 95% 20px no-repeat
+    @media only screen and (min-width 640px)
+      width 250px
+      padding 0 10px 0 33px
+      background url("./img/select-arrow.png") 208px 20px no-repeat
   &__query
     color #636363
     font-size 16px
     min-height 83px
-    width 484px
+    width 95%
     border-radius 5px
     padding 13px 10px 0 22px
     border 2px solid #e3f2fd
     resize none
-    @media only screen and (max-width 640px)
-      width 95%
+    @media only screen and (min-width 640px)
+      width 484px
   &__submit-button
     color white
     font-size 20px
     text-transform uppercase
     cursor pointer
     border none
-    margin 15px 0 0 402px
+    margin 0 auto
     padding 0
     width 120px
     min-height 45px
     border-radius 7px
     background-color #ef5350
-    @media only screen and (max-width 640px)
-      margin 0 auto
+    @media only screen and (min-width 640px)
+      margin 15px 0 0 402px
     &:hover
       background-color white
       color #ef5350
@@ -113,9 +108,11 @@
     outline none
     border-color #999999
   &__submit
-    @media only screen and (max-width 640px)
-      margin 10px auto
-      width 115px
+    margin 10px auto
+    width 115px
+    @media only screen and (min-width 640px)
+      margin 0
+      width auto
 
 option:disabled
   color #999999

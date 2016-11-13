@@ -9,25 +9,21 @@
     z-index 100
   &__logo
     float left
-    width 600px
-    margin 16px 0 0 152px
+    margin 15px 0 0 0
+    width 158px
     font-size 35px
     color white
-    @media only screen and (max-width 1242px)
-      margin 15px 0 0 0
-      width 158px
-      font-size 35px
-      color white
+    @media only screen and (min-width 1242px)
+      width 600px
+      margin 16px 0 0 152px
   &__contact-us
-    margin 26px 2px 0 0
     float right
+    margin 26px 0 0 0
+    width 110px
     font-size 16px
     text-transform uppercase
-    @media only screen and (max-width 1242px)
-      margin 26px 0 0 0
-      width 110px
-      font-size 16px
-      text-transform uppercase
+    @media only screen and (min-width 1242px)
+      margin 26px 2px 0 0
     & a
       &:link
         display block

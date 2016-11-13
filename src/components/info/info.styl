@@ -1,12 +1,10 @@
 .info
-  margin-left 600px
-  padding-top 182px
-  @media only screen and (max-width 1242px)
-    padding 0
-    width 600px
-    margin 0 auto
-  @media only screen and (max-width 640px)
-    width 90%
+  padding 0
+  width 600px
+  margin 0 auto
+  @media only screen and (min-width 1242px)
+    margin-left 600px
+    padding-top 182px
   &__header
     text-transform uppercase
     font-size 30px
@@ -17,16 +15,12 @@
     font-size 18px
     color white
     width 523px
-    margin 26px 0 0 32px
+    margin 26px 0 20px 32px
     line-height 22px
-    @media only screen and (max-width 1242px)
-      margin 26px 0 20px 32px
-    @media only screen and (max-width 640px)
-      width 80%
+    @media only screen and (min-width 1242px)
+      margin 26px 0 0 32px
   &__button
     margin 55px 0 0 366px
-    @media only screen and (max-width 1242px)
-      width 166px
     & a
       &:link
         display block
