@@ -1,3 +1,9 @@
+include components/header/header.pug
+include components/phone/phone.pug
+include components/info/info.pug
+include components/lets-talk/lets-talk.pug
+include components/footer/footer.pug
+
 doctype html
 html
     head
@@ -9,12 +15,12 @@ html
         link(rel="shortcut icon" href="favicon.ico" type="image/x-icon")
     body
         .main
-            include components/header/header.pug
+            +header()
             .content
                 .layout-positioner
                     .content__phone-container
-                        include components/phone/phone.pug
-                    include components/info/info.pug
+                        +phone()
+                    +info()
             .layout-positioner
-                include components/lets-talk/lets-talk.pug
-        include components/footer/footer.pug
+                +lets-talk()
+        +footer()

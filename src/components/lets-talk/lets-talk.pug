@@ -1,14 +1,15 @@
-section.lets-talk
-    .lets-talk__header Lets talk
-    form.lets-talk__form(action='#', method='post')
-         input#first-name-field.lets-talk__firstname(type='text', name='first-name', value='First name')
-         input#last-name-field.lets-talk__lastname(type='text', name='last-name', value='Last name')
-         input#email-field.lets-talk__email(type='email', name='email', value='Email Address')
-         select#app-design-field.lets-talk__design(name='app-design')
-             option(selected='', disabled='', hidden='') App Design
-             option(value='1') Design 1
-             option(value='2') Design 2
-             option(value='3') Design 3
-         textarea#query-field.lets-talk__query(name='query', rows='4') Type your query here
-         .lets-talk__submit
-             input.lets-talk__submit-button(type='submit', name='submit', value='Send')
+mixin lets-talk()
+    section.lets-talk
+        .lets-talk__header Lets talk
+        form.lets-talk__form(action='#', method='post')
+             input#first-name-field.lets-talk__firstname(type='text', name='first-name', value='First name')
+             input#last-name-field.lets-talk__lastname(type='text', name='last-name', value='Last name')
+             input#email-field.lets-talk__email(type='email', name='email', value='Email Address')
+             select#app-design-field.lets-talk__design(name='app-design')
+                 option(selected='', disabled='', hidden='') App Design
+                 option(value='1') Design 1
+                 option(value='2') Design 2
+                 option(value='3') Design 3
+             textarea#query-field.lets-talk__query(name='query', rows='4') Type your query here
+             .lets-talk__submit
+                 input.lets-talk__submit-button(type='submit', name='submit', value='Send')
