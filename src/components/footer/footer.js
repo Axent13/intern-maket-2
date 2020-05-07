@@ -1,0 +1,1 @@
+require("./img/mail-icon.png");

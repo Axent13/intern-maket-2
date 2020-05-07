@@ -1,0 +1,1 @@
+require("./img/photo-disney.png");
